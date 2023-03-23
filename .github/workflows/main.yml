@@ -1,5 +1,6 @@
 name: My workflow
 on:
+  workflow_dispatch:
   schedule:
     - cron: "00,30 * * * *"
 jobs:
